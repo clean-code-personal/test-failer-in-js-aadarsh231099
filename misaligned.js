@@ -16,6 +16,6 @@ const expected = [  '1 | White | Blue',  '2 | White | Orange',  '3 | White | Gre
       '23 | Violet | Green',  '24 | Violet | Brown',  '25 | Violet | Slate',];
 
 result=print_color_map();
-expect(print_color_map()).equals(25);
+expect(result).equals(25);
 expect(result).equals(expected);
 console.log('All is well (maybe!)');
