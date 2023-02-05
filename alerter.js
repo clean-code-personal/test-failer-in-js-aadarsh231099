@@ -23,6 +23,6 @@ function alertInCelcius(farenheit) {
 
 alertInCelcius(400.5);
 alertInCelcius(303.6);
-expect(alertFailureCount).equals(2);
 console.log(`${alertFailureCount} alerts failed.`);
+expect(alertFailureCount).equals(2);
 console.log('All is well (maybe!)');
