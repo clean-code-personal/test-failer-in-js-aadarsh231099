@@ -52,7 +52,5 @@ const expected = [
 
 
 expect(givenOutput).equals(expected);
-console.log = out;
-
 
 console.log('All is well (maybe!)');
