@@ -16,6 +16,7 @@ const size=require('./tshirts');
     });
     it('should return "Value out of size limits" when the value is more than 50', function () {
         expect(size(51)).equals('Value out of size limits');
+        
     });
-    console.log('All is well (maybe!)');
+    
   });
