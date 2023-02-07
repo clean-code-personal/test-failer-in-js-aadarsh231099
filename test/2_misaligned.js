@@ -38,7 +38,7 @@ describe('print_color_map', function () {
     console.log(result);
     expect(result.length).equals(25);
 });
-  it('given should be same as expected', function () {
+  it('given output should be same as expected output', function () {
       expect(result).deep.equals(expected);
   });
   
